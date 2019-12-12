@@ -21,15 +21,17 @@ Golang 1.8+
 ## Installation
 
 - get the repository from *Github*\
-  `go get https://github.com/gmoaozora/gmo-aozora-api-go`
-- With the **terminal**, go to the folder and run\
-  `npm install` 
+  `$ go get github.com/gmoaozora/gmo-aozora-api-go`
+
+- get a package with the following command \
+  `$ go get github.com/antihax/optional`
 
 ## Getting started
 
 ### Enviroment
 
-Add the configuration below into your config file
+Add the configuration below into your config file\
+  `vi conf.json`
 
 * stg
 
