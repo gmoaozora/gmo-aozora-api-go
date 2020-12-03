@@ -52,7 +52,7 @@ Add the configuration below into your config file\
     ```
     [configuration.go - Corporate ](./corporateclient/configuration.go) 
     ```go
-		BasePath:      "https://stg-api.gmo-aozora.com/ganb/api/corporate/v1",
+		BasePath:      "https://stg-api.gmo-aozora.com/ganb/api/corporation/v1",
     ```
     [configuration.go - Webhook ](./webhookclient/configuration.go) 
     ```go
@@ -78,7 +78,7 @@ Add the configuration below into your config file\
     ```
     [configuration.go - Corporate ](./corporateclient/configuration.go) 
     ```go
-		BasePath:      "https://api.gmo-aozora.com/ganb/api/corporate/v1",
+		BasePath:      "https://api.gmo-aozora.com/ganb/api/corporation/v1",
     ```
     [configuration.go - Webhook ](./webhookclient/configuration.go) 
     ```go
