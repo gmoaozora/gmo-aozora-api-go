@@ -178,8 +178,8 @@ func (g Ganb) OpenIDGetToken(redirectURI string, code string, authMethod string)
 		return token, errors.Wrap(err, "failed to Http Request.")
 	}
 
-	jsonErr := json.Unmarshal(body, &token)
-	if jsonErr != nil {
+	err = json.Unmarshal(body, &token)
+	if err != nil {
 		return token, errors.Wrap(err, "failed to unmarshal json.")
 	}
 
